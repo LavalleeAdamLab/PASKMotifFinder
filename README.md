@@ -1,8 +1,8 @@
-# PolyPhosphoFinder
+# PASKMotifFinder
 
-A PASK Motif as defined by [Bentley-DeSousa et al.](https://doi.org/10.1016/j.celrep.2018.02.104) is a protein sequence of 20 amino acid length that is made up of at least 75% aspartate (D), glutamate (E), serine (S), and lysine (K) residues and contains at least one lysine . Such motifs are a likely site of lysine polyphosphorylation: the non-covalent binding of inorganic polyphosphate (PolyP) chains on a lysine residue. These post-translational modifications have been linked to stress responses and cellular regulation in bacteria and yeast, and many PASK-containing proteins share homologs in higher eukaryotes. Identifying PASK motifs in humans and other organisms is a critical step for investigating the biological roles of polyphosphorylation and uncovering conserved regulatory mechanisms that can be exploited for therapeutic strategies. 
+A PASK Motif as defined by [Bentley-DeSousa et al.](https://doi.org/10.1016/j.celrep.2018.02.104) is a protein sequence of 20 amino acid length that is made up of at least 75% aspartate (D), glutamate (E), serine (S), and lysine (K) residues and contains at least one lysine. Such motifs are a likely site of lysine polyphosphorylation: the non-covalent binding of inorganic polyphosphate (PolyP) chains on a lysine residue. These post-translational modifications have been linked to stress responses and cellular regulation in bacteria and yeast, and many PASK-containing proteins share homologs in higher eukaryotes. Identifying PASK motifs in humans and other organisms is a critical step for investigating the biological roles of polyphosphorylation and uncovering conserved regulatory mechanisms that can be exploited for therapeutic strategies. 
     
-The PolyPhosphoFinder is a Java tool for identifying PASK motif regions in protein sequences. The program reads protein sequences from a FASTA file and uses a 20 amino acid size sliding window to find sequence regions where DESK amino acids make up 75% or more of the sequence and contain at least one K residue. With PolyPhosphoFinder_Expand, the motif region can additionally be dynamically expanded to include adjacent residues until the ratio of DESK amino acids no longer satisfies the threshold. Both programs output a text file of the protein sequences where a PASK motif was found, with the motif region highlighted. 
+The PASKMotifFinder is a Java tool for identifying PASK motif regions in protein sequences. The program reads protein sequences from a FASTA file and uses a 20 amino acid size sliding window to find sequence regions where DESK amino acids make up 75% or more of the sequence and contain at least one K residue. With PolyPhosphoFinder_Expand, the motif region can additionally be dynamically expanded to include adjacent residues until the ratio of DESK amino acids no longer satisfies the threshold. Both programs output a text file of the protein sequences where a PASK motif was found, with the motif region highlighted. 
     
 ## Dependencies
     
@@ -17,14 +17,14 @@ PolyPhosphoFinder_Expand will additionally use each motif as a seed and dynamica
 
 ## Running PolyPhosphoFinder
 
-0. Ensure you have Java (**and other dependencies)** installed first. 
+0. Ensure you have Java installed first. 
 1. Save `PolyPhosphoFinder.jar` to your preferred location (e.g. a folder in “Documents”).
     - You can follow the same steps for `PolyPhospoFinder_Expand.jar` . Be sure to use the correct .jar file name when launching the tool in step 5. 
 2. Prepare and save your input files (described below) in the same location. 
 3. Open a terminal window (Mac/Linux) or command prompt (Windows).
 4. Navigate to the location with your files.
    - Mac example: `cd "/Users/username/Documents/MyProjectFolder/"`
-   -  Windows example: `cd "C:\Users\username\Documents\MyProjectFolder\"`
+   - Windows example: `cd "C:\Users\username\Documents\MyProjectFolder\"`
 6. Run the program with the following arguments:
 
 ```bash
