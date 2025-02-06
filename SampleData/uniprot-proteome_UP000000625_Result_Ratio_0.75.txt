@@ -1,0 +1,26 @@
+sp|P0A8H6|YIHI_ECOLI Der GTPase-activating protein YihI OS=Escherichia coli (strain K12) OX=83333 GN=yihI PE=1 SV=1
+	                                                  
+0	MKPSSSNSRSKGHAKARRKTREELDQEARDRKRQKKRRGHAPGSRAAGGN
+	                                                  
+50	TTSGSKGQNAPKDPRIGSKTPIPLGVTEKVTKQHKPKSEKPMLSPQAELE
+	                                         *********
+100	LLETDERLDALLERLEAGETLSAEEQSWVDAKLDRIDELMQKLGLSYDDD
+	***********        
+150	EEEEEDEKQEDMMRLLRGN
+
+sp|P77173|ZIPA_ECOLI Cell division protein ZipA OS=Escherichia coli (strain K12) OX=83333 GN=zipA PE=1 SV=3
+	                                         *********
+0	MMQDLRLILIIVGAIAIIALLVHGFWTSRKERSSMFRDRPLKRMKSKRDD
+	***********                                       
+50	DSYDEDVEDDEGVGEVRVHRVNHAPANAQEHEAARPSPQHQYQPPYASAQ
+	                                                  
+100	PRQPVQQPPEAQVPPQHAPHPAQPVQQPAYQPQPEQPLQQPVSPQVAPAP
+	                                                  
+150	QPVHSAPQPAQQAFQPAEPVAAPQPEPVAEPAPVMDKPKRKEAVIIMNVA
+	                                                  
+200	AHHGSELNGELLLNSIQQAGFIFGDMNIYHRHLSPDGSGPALFSLANMVK
+	                                                  
+250	PGTFDPEMKDFTTPGVTIFMQVPSYGDELQNFKLMLQSAQHIADEVGGVV
+	                            
+300	LDDQRRMMTPQKLREYQDIIREVKDANA
+
