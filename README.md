@@ -52,10 +52,10 @@ java -jar PolyPhosphoFinder.jar uniprot-proteome_UP000000625.fasta 0.75
 #In a Windows console window, first navigate to the directory with the .jar file and the FASTA file
 cd "C:\Users\myusername\Downloads"
     
-#Launch the expanded motif finder program, looking for regions in the E. coli proteome where the composition ratio of DESK amino acids is equal to or greater than 0.80
+#Launch the expanded motif finder program, looking for regions in the E. coli proteome where the composition ratio of DESK amino acids is equal to or greater than 0.75
 java -jar PolyPhosphoFinder_Expand.jar uniprot-proteome_UP000000625.fasta 0.8
     
-#The output file will be in "C:\Users\myusername\Downloads" named "uniprot-proteome_UP000000625_Result_Ratio_0.8.txt"
+#The output file will be in "C:\Users\myusername\Downloads" named "uniprot-proteome_UP000000625_Result_Ratio_0.75.txt"
 ```
     
 ## Input
